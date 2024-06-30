@@ -7,7 +7,8 @@ U-Net is a powerful, versatile neural network architecture designed specifically
 The Link to the paper on U-Net for road-lane detection: [https://arxiv.org/abs/1505.04597](https://arxiv.org/abs/2102.04738)  
 
 # U-Net Architecture
-![unet_architecture](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/e9264c14-e87c-4273-a9d5-fe952fcf26c8)      
+
+![unet_architecture](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/fcd07bc7-71dd-4618-ac5b-258218d868f7)
 
 # TuSimple Dataset
 The TuSimple dataset is a large-scale dataset for autonomous driving research, focusing on lane detection and perception tasks. It's widely used in computer vision and autonomous driving communities for benchmarking and developing algorithms.         
@@ -35,17 +36,19 @@ The trained model has been tested on test generator which gave out a good accura
 You can download the weights file UNET_LANE_DETECTOR_WEIGHTS.h5 file from the repository and directly use it for predictions on new images.
 
 # GRAPHICAL VISUALIZATION OF METRICS
-![training_validation_plot (2)](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/01e2260d-56b9-4553-aaf1-51cb5d1ea909)
+
+![training_validation_plot (2)](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/194b3fa1-e1c9-4444-921f-808bde4e36b5)
 
 The Above graph visualizes the metrics during the training process, it shows Training & Validation Loss and Training & Validation Accuracy with the starting value and ending value. The graphs shows the loss function and accuracy remained fairly on training and validation sets throughout the training process as shown in the visualization.
 
 # Model Predictions
-The lane-predictor.ipynb file can be downloaded which contains code for lane prediction on images and video file's. Some sample images and video files were taken from internet and lane prediction's were obtained using the trained model. Few results are:             
-![road1](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/cf186e09-99de-425a-9e60-a39a1edd625c)    ![masked_image_1](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/88afb4f2-531b-4554-8f51-f9928f45ddd1)              
+The lane-predictor.ipynb file can be downloaded which contains code for lane prediction on images and video file's. Some sample images and video files were taken from internet and lane prediction's were obtained using the trained model. Few results are:     
 
-![night_road_2](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/7c0311e7-b4a9-4dfb-9162-670e1ce9f67b)     ![masked_image_night_2](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/cc407ed6-0c44-4ed7-8897-667d7e358c07)         
+![road1](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/e7d97943-49ba-465f-acc2-3ca5639a78df)     ![masked_image_1](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/033603cb-61cd-4974-9a22-60455eb53717)
+
+![night_road_2](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/6adcce50-240f-4ff0-bd8b-9f9c566341a0)     ![masked_image_night_2](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/549d5fd2-cfb5-48d1-805b-4fae3ed895e4)      
     
-![bridge_light](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/ff00040f-07d6-45fb-87ad-342954feac05)      ![masked_image_bridge_light](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/28158212-f6fd-4fd1-82fb-ed9d43d3746f)
+![bridge_light](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/7408f7db-a2af-4a9c-bd98-484e4234dffa)     ![masked_image_bridge_light](https://github.com/AshishViswas/Road_Lane_Detection/assets/130546401/0b563e3d-4a71-4599-8bd7-85829848146f)
 
 Even Though there are slight disturbances, The predictions came out pretty good when tested on images found on internet, which are not from the test set.
 
